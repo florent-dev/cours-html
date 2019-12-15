@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.taille-1 {
+  width: 25%; }
+
+.taille-2 {
+  width: 50%; }
+
+.taille-3 {
+  width: 75%; }
+
+.taille-4 {
+  width: 100%; }
+
+.bouton-petite {
+  width: 25%; }
+
+.bouton-standard {
+  width: 50%; }
+
+.bouton-moyenne {
+  width: 75%; }
+
+.bouton-grande {
+  width: 100%; }
+
+.ville-paris::before {
+  display: block;
+  content: "Paris"; }
+
+.ville-rome::before {
+  display: block;
+  content: "Rome"; }
+
+.ville-venise::before {
+  display: block;
+  content: "Venise"; }
+
+.ville-bresil::before {
+  display: block;
+  content: "Br├®sil"; }
+
+.ville-iles-caraibes::before {
+  display: block;
+  content: "Les ├«les Cara├»bes"; }
+
+.social-facebook {
+  background: #3a83af;
+  padding: 8px 15px;
+  border-radius: 15px; }
+
+.fa-facebook {
+  color: #a2c9e0; }
+
+.social-twitter {
+  background: #2077af;
+  padding: 8px 15px;
+  border-radius: 15px; }
+
+.fa-twitter {
+  color: #80bfe8; }
+
+.social-linkedin {
+  background: #5eafa0;
+  padding: 8px 15px;
+  border-radius: 15px; }
+
+.fa-linkedin {
+  color: #c4e2dc; }
+
+.social-instagram {
+  background: #af1f74;
+  padding: 8px 15px;
+  border-radius: 15px; }
+
+.fa-instagram {
+  color: #e87fbd; }
+
+.social-pinterest {
+  background: #7caf2c;
+  padding: 8px 15px;
+  border-radius: 15px; }
+
+.fa-pinterest {
+  color: #c3e391; }
+
+.social-youtube {
+  background: #af1d31;
+  padding: 8px 15px;
+  border-radius: 15px; }
+
+.fa-youtube {
+  color: #e97c8b; }
+
+/*# sourceMappingURL=functions.css.map */

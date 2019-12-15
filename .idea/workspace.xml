@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="42ce4ce1-f0dd-4d6e-8862-32250d77627f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TKBaMPTRZcnTIcJ6BQ1d5gnEGP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP4" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\Cours\html5\TP3-js\TP3_projet\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\Cours\html5\TP2-sujet-ressources" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42ce4ce1-f0dd-4d6e-8862-32250d77627f" name="Default Changelist" comment="" />
+      <created>1570102707831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570102707831</updated>
+      <workItem from="1570102710417" duration="11313000" />
+      <workItem from="1573198970712" duration="11104000" />
+      <workItem from="1573420281394" duration="3000" />
+      <workItem from="1573488603483" duration="18649000" />
+      <workItem from="1573585957439" duration="2641000" />
+      <workItem from="1573644722158" duration="2902000" />
+      <workItem from="1574151026087" duration="6000" />
+      <workItem from="1574169315025" duration="3533000" />
+      <workItem from="1574242888963" duration="13000" />
+      <workItem from="1574413746339" duration="5309000" />
+      <workItem from="1575242717196" duration="7000" />
+      <workItem from="1575486870569" duration="884000" />
+      <workItem from="1575531875825" duration="4680000" />
+      <workItem from="1575539491169" duration="2973000" />
+      <workItem from="1575548230427" duration="12321000" />
+      <workItem from="1575617523395" duration="10267000" />
+      <workItem from="1575633091953" duration="5000" />
+      <workItem from="1576425933611" duration="7423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="591" y="222" width="737" height="596" key="find.popup" timestamp="1576431659839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="591" y="222" width="737" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576431659839" />
+  </component>
+</project>
