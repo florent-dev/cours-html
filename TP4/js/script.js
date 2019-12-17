@@ -29,9 +29,9 @@ function insertRowInDestinationsList(dIndex) {
     '<div class="card-body"><h5 class="card-title">' + destination.nom + '</h5>' +
     '<h6 class="card-subtitle mb-2 text-muted">' + destination.prix + ' €</h6>' +
     '<p class="card-text">' + destination.description + '</p>' +
-    '<a href="#" class="btn btn-primary">Découvrir</a>' +
-    '<a href="#" class="btn btn-primary" onclick="modifierDestination(' + dIndex + ')">Modifier</a>' +
-    '<a href="#" class="btn btn-primary" onclick="supprimerDestination(' + dIndex + ')">Supprimer</a>' +
+    '<a href="#" class="btn btn-sm btn-outline-info mr-4 mb-1 d-none" name="decouvrir" onclick="decouvrirDestination(' + dIndex + ')">Découvrir</a>' +
+        '<a href="#" class="btn btn-sm btn-outline-danger mb-1 float-right d-none" name="supprimer" onclick="supprimerDestination(' + dIndex + ')">Supprimer</a>' +
+    '<a href="#" class="btn btn-sm btn-outline-info mr-1 mb-1 float-right d-none" name="modifier" onclick="modifierDestination(' + dIndex + ')">Modifier</a>' +
     '</div></div>';
 
     $('#destinations-list div.col-sm-6:last-child').after(row);
@@ -127,11 +127,11 @@ $('footer').html(footerHTML);
 
 /****************** Insertion de la modal de connexion ******************/
 $('footer').after('<!-- Modal -->' +
-    '<div class="modal fade" id="connexionModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">' +
+    '<div class="modal fade" id="connexionModal" tabindex="-1" role="dialog" aria-labelledby="connexionModal" aria-hidden="true">' +
     '  <div class="modal-dialog" role="document">' +
     '    <div class="modal-content">' +
     '      <div class="modal-header">' +
-    '        <h5 class="modal-title" id="modalLabel">Connexion</h5>' +
+    '        <h5 class="modal-title" id="connexionModalTitle">Connexion</h5>' +
     '        <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">' +
     '          <span aria-hidden="true">&times;</span>' +
     '        </button>' +
@@ -139,6 +139,7 @@ $('footer').after('<!-- Modal -->' +
     '      <div class="modal-body">' +
     '        <input type="text" class="btn" id="connexion-login" placeholder="Identifiant" />' +
     '        <input type="password" class="btn" id="connexion-pw" placeholder="Mot de passe" />' +
+    '        <p class="alert-danger mt-4 rounded p-2 d-none" id="connexionModalAlert"></p>' +
     '      </div>' +
     '      <div class="modal-footer">' +
     '        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>' +
@@ -148,7 +149,34 @@ $('footer').after('<!-- Modal -->' +
     '  </div>' +
     '</div>');
 
+/****************** Insertion de la modal avec contenu paramètrable ******************/
+$('footer').after('<!-- Modal -->' +
+    '<div class="modal fade" id="globalModal" tabindex="-1" role="dialog" aria-labelledby="globalModal" aria-hidden="true">' +
+    '  <div class="modal-dialog" role="document">' +
+    '    <div class="modal-content">' +
+    '      <div class="modal-header">' +
+    '        <h5 class="modal-title" id="globalModalTitle">Informations</h5>' +
+    '        <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">' +
+    '          <span aria-hidden="true">&times;</span>' +
+    '        </button>' +
+    '      </div>' +
+    '      <div class="modal-body" id="globalModalBody">' +
+    '      </div>' +
+    '      <div class="modal-footer">' +
+    '        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>' +
+    '      </div>' +
+    '    </div>' +
+    '  </div>' +
+    '</div>');
+
 /********************** Gestion des destinations **********************/
+
+function decouvrirDestination(id) {
+    var destination = destinations[id];
+    $('#globalModalTitle').html("Partez pour la destination... " + destination.nom);
+    $('#globalModalBody').html("<b>Description :</b> " + destination.description + "<br><b>Prix :</b> " + destination.prix + " €");
+    $('#globalModal').modal('toggle');
+}
 
 $('#ajouterDestination').on('click', function (event) {
     var formulaire = $('#editeurCreationDestination');
@@ -161,10 +189,6 @@ $('#ajouterDestination').on('click', function (event) {
     destinations.push(nouvelleDestination);
     insertRowInDestinationsList(destinations.length-1);
 });
-
-function supprimerDestination(id) {
-    $('#destination-' + id).hide();
-}
 
 function modifierDestination(id) {
     var destination = destinations[id];
@@ -205,7 +229,15 @@ function annulerModifierDestination() {
     $('#editeurModificationDestination').hide();
 }
 
+function supprimerDestination(id) {
+    $('#destination-' + id).hide();
+}
+
 /********************** Gestion de la session **********************/
+
+var username = null;
+
+// L'action se connecter
 function connexion() {
     $.ajax({
         url: 'ajax/session.php',
@@ -218,11 +250,30 @@ function connexion() {
         success: function (result, statut) {
             if (result !== 'ERR_CONNEXION') {
                 updatePageConnecte(result);
+                $('#connexionModal').modal('toggle');
+            } else {
+                $('#connexionModalAlert').html("Échec de la connexion").removeClass('d-none');
             }
         }
     });
 }
 
+// L'action se déconnecter
+function deconnexion() {
+    $.ajax({
+        url: 'ajax/session.php',
+        type: 'POST',
+        dataType: 'html',
+        data: {
+            'deconnexion': true
+        },
+        success: function (result, statut) {
+            updatePageDeconnecte();
+        }
+    });
+}
+
+// A chaque chargement de page, on récupère la session si elle existe
 function connexionPageInitiee() {
     $.ajax({
         url: 'ajax/session.php',
@@ -238,9 +289,26 @@ function connexionPageInitiee() {
     });
 }
 
-function updatePageConnecte(username) {
-    $('#gestionSession').html(username);
-    $('#editeurCreationDestination').removeClass('d-none');
+function updatePageConnecte(login) {
+    username = login;
+    var text = username + '<button class="btn btn-info my-2 my-sm-0 ml-3" type="button" onclick="deconnexion()">Déconnexion</button>';
+    $('#gestionSession').html(text);
+    $('a[name=decouvrir]').removeClass('d-none');
+
+    if (username === 'admin') {
+        $('#editeurCreationDestination').removeClass('d-none');
+        $('a[name=modifier]').removeClass('d-none');
+        $('a[name=supprimer]').removeClass('d-none');
+    }
+}
+
+function updatePageDeconnecte() {
+    username = null;
+    $('#gestionSession').html('<button class="btn btn-success my-2 my-sm-0" type="button" data-toggle="modal" data-target="#connexionModal">Connexion</button>');
+    $('#editeurCreationDestination').addClass('d-none');
+    $('a[name=decouvrir]').addClass('d-none');
+    $('a[name=modifier]').addClass('d-none');
+    $('a[name=supprimer]').addClass('d-none');
 }
 
 connexionPageInitiee();

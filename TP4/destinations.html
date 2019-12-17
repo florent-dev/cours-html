@@ -40,12 +40,12 @@
                 <div class="col-sm-6 col-md-4 mb-3 d-none" id="editeurCreationDestination">
                     <div class="card">
                         <img src="https://i2.wp.com/www.123freevectors.com/wp-content/original/131249-dark-grey-low-poly-abstract-background-design-vector.jpg?w=800&q=95" class="card-img-top" alt="image">
-                        <div class="card-body">
-                            <h5 class="card-title"><input name="destination_nom" type="text" placeholder="Nom destination" /></h5>
-                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_prix" type="number" placeholder="Prix" /> €</h6>
-                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_image" type="text" placeholder="Lien image" /></h6>
-                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_offre" type="text" placeholder="Description offre" /></h6>
-                            <a id="ajouterDestination" href="#" class="btn btn-primary">Ajouter</a>
+                        <div class="card-body form-group">
+                            <h5 class="card-title"><input name="destination_nom" type="text" placeholder="Nom destination" class="form-control" /></h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_prix" type="number" placeholder="Prix en €" class="form-control-sm" /></h6>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_image" type="text" placeholder="Lien image" class="form-control-sm" /></h6>
+                            <h6 class="card-subtitle mb-2 text-muted"><input name="destination_offre" type="text" placeholder="Description offre" class="form-control-sm" /></h6>
+                            <a id="ajouterDestination" href="#" class="btn btn-sm btn-outline-info">Ajouter</a>
                         </div>
                     </div>
                 </div>
@@ -57,8 +57,8 @@
                             <h6 class="card-subtitle mb-2 text-muted"><input name="destination_prix" type="number" placeholder="Prix" /> €</h6>
                             <h6 class="card-subtitle mb-2 text-muted"><input name="destination_image" type="text" placeholder="Lien image" /></h6>
                             <h6 class="card-subtitle mb-2 text-muted"><input name="destination_offre" type="text" placeholder="Description offre" /></h6>
-                            <a id="modifierDestination" href="#" class="btn btn-primary" onclick="validerModifierDestination()">Modifier</a>
-                            <a id="annulerModifierDestination" href="#" class="btn btn-primary" onclick="annulerModifierDestination()">Annuler</a>
+                            <a id="modifierDestination" href="#" class="btn btn-sm btn-outline-info" onclick="validerModifierDestination()">Modifier</a>
+                            <a id="annulerModifierDestination" href="#" class="btn btn-sm btn-outline-danger" onclick="annulerModifierDestination()">Annuler</a>
                             <input name="destination_id" type="hidden" />
                         </div>
                     </div>
