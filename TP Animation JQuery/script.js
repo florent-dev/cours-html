@@ -1,21 +1,19 @@
 var currentProgress = 0;
 
 $('#add').click(function () {
-    if (currentProgress === 100) {
-        $('#progress-bar').css('width', '0%');
+    currentProgress = parseInt(currentProgress) + 10;
+
+    if (currentProgress >= 100) {
         currentProgress = 0;
-    } else {
-        currentProgress = currentProgress + 10;
-        $('#progress-bar').css('width', currentProgress+'%');
     }
-    $('#progresstext').val(currentProgress);
+
+    updateProgressBar();
 });
 
 
 $('#init').click(function () {
     currentProgress = 0;
-    $('#progress-bar').css('width', '0%');
-    $('#progresstext').val(currentProgress);
+    updateProgressBar();
 });
 
 $('#progresstext').change(function () {
@@ -27,6 +25,18 @@ $('#progresstext').change(function () {
         currentProgress = this.value;
     }
 
+    updateProgressBar();
+});
+
+function updateProgressBar() {
     $('#progresstext').val(currentProgress);
     $('#progress-bar').css('width', currentProgress+'%');
-});
+
+    if (currentProgress <= 50) {
+        $('#progress-bar').css('background-color', '#007bff');
+    } else if (currentProgress >= 80) {
+        $('#progress-bar').css('background-color', '#dc3545');
+    } else {
+        $('#progress-bar').css('background-color', '#dc9935');
+    }
+}
