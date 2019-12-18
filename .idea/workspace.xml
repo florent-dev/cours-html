@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42ce4ce1-f0dd-4d6e-8862-32250d77627f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP Animation JQuery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP Animation JQuery/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Front-End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Front-End.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP Animation JQuery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP Animation JQuery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP Animation JQuery/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP Animation JQuery/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +104,7 @@
       <workItem from="1576609016181" duration="7862000" />
       <workItem from="1576656552128" duration="25000" />
       <workItem from="1576672872457" duration="592000" />
-      <workItem from="1576674809047" duration="6486000" />
+      <workItem from="1576674809047" duration="7252000" />
     </task>
     <servers />
   </component>
