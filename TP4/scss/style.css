@@ -201,23 +201,6 @@ table {
   table img {
     width: 200px; }
 
-input[type=submit], input[type=button], button {
-  border-radius: 5px;
-  border: 1px solid #979999; }
-
-input:not([type=submit]):not([type=button]), textarea {
-  border-radius: 5px;
-  border: 1px solid #979999;
-  background-color: #ffffff;
-  padding: 5px 10px;
-  width: 200px; }
-
-textarea {
-  width: 500px;
-  min-width: 500px;
-  height: 200px;
-  min-height: 200px; }
-
 form label {
   display: block; }
 form input[type=submit] {
@@ -228,12 +211,22 @@ form input[type=submit] {
   margin: 5px;
   background-color: #787b7bd9; }
 
+.navbar-toggler {
+  width: 100%; }
+
+.nav-link {
+  color: #000000 !important; }
+
 /** Media queries **/
 @media screen and (max-width: 500px) {
   footer {
     bottom: -1px !important; }
     footer div.social-medias span a {
-      padding: 2px 3px !important; } }
+      padding: 2px 3px !important; }
+
+  button:not(.btn-deconnexion), a.btn:not(.btn-deconnexion) {
+    width: 100% !important;
+    float: left; } }
 @media screen and (max-width: 250px) {
   footer {
     display: none; } }

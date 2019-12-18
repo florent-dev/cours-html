@@ -29,9 +29,9 @@ function insertRowInDestinationsList(dIndex) {
     '<div class="card-body"><h5 class="card-title">' + destination.nom + '</h5>' +
     '<h6 class="card-subtitle mb-2 text-muted">' + destination.prix + ' €</h6>' +
     '<p class="card-text">' + destination.description + '</p>' +
-    '<a href="#" class="btn btn-sm btn-outline-info mr-4 mb-1 d-none" name="decouvrir" onclick="decouvrirDestination(' + dIndex + ')">Découvrir</a>' +
-        '<a href="#" class="btn btn-sm btn-outline-danger mb-1 float-right d-none" name="supprimer" onclick="supprimerDestination(' + dIndex + ')">Supprimer</a>' +
-    '<a href="#" class="btn btn-sm btn-outline-info mr-1 mb-1 float-right d-none" name="modifier" onclick="modifierDestination(' + dIndex + ')">Modifier</a>' +
+    '<a href="#" class="btn btn-sm btn-outline-info mr-1 mb-1 d-none" name="decouvrir" onclick="decouvrirDestination(' + dIndex + ')">Découvrir</a>' +
+    '<a href="#" class="btn btn-sm btn-outline-info mr-1 mb-1 d-none" name="modifier" onclick="modifierDestination(' + dIndex + ')">Modifier</a>' +
+    '<a href="#" class="btn btn-sm btn-outline-danger mb-1 d-none" name="supprimer" onclick="supprimerDestination(' + dIndex + ')">Supprimer</a>' +
     '</div></div>';
 
     $('#destinations-list div.col-sm-6:last-child').after(row);
@@ -291,7 +291,7 @@ function connexionPageInitiee() {
 
 function updatePageConnecte(login) {
     username = login;
-    var text = username + '<button class="btn btn-info my-2 my-sm-0 ml-3" type="button" onclick="deconnexion()">Déconnexion</button>';
+    var text = username + '<button class="btn btn-info btn-deconnexion my-2 my-sm-0 ml-3" type="button" onclick="deconnexion()">Déconnexion</button>';
     $('#gestionSession').html(text);
     $('a[name=decouvrir]').removeClass('d-none');
 
