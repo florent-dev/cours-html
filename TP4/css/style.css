@@ -217,6 +217,10 @@ form input[type=submit] {
 .nav-link {
   color: #000000 !important; }
 
+figure {
+  max-width: 600px;
+  max-height: 350px; }
+
 /** Media queries **/
 @media screen and (max-width: 500px) {
   footer {
