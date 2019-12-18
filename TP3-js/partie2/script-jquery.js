@@ -1,7 +1,7 @@
 // Refonte des éléments nécessaires en JQuery
 
-function eventVisiterVille() {
-    var ville = $('#villeDestination').val();
+$('#validerFormDestination-JQuery').click(function() {
+    var ville = $('#villeDestination-JQuery').val();
     var alertDiv = $('#alert');
     var alertMessage = '';
 
@@ -22,6 +22,4 @@ function eventVisiterVille() {
         '<hr><b>Vous avez visité : ' + paysVisitesToHtml() + '</b>';
 
     alertDiv.html(alertMessage);
-}
-
-$('#validerFormDestination').click(eventVisiterVille);
+});
