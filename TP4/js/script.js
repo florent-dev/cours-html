@@ -39,6 +39,22 @@ function insertRowInDestinationsList(dIndex) {
 
 /***************************** Menu *****************************/
 
+$('header').html(
+    '<nav class="navbar navbar-expand-lg navbar-light">' +
+    '        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">' +
+    '            <span class="navbar-toggler-icon"></span>' +
+    '        </button>' +
+    '        <div class="collapse navbar-collapse" id="navbarNavDropdown">' +
+    '            <ul class="navbar-nav mr-auto"></ul>' +
+    '            <ul class="navbar-nav float-right">' +
+    '                <form class="form-inline my-2 my-lg-0 d-none" id="gestionSession">' +
+    '                    <button class="btn btn-success my-2 my-sm-0" type="button" data-toggle="modal" data-target="#connexionModal">Connexion</button>' +
+    '                </form>' +
+    '            </ul>' +
+    '        </div>' +
+    '    </nav>'
+);
+
 // Notre classe
 class Page {
     constructor(nom, lien, sousmenus) {
@@ -137,8 +153,8 @@ $('footer').after('<!-- Modal -->' +
     '        </button>' +
     '      </div>' +
     '      <div class="modal-body">' +
-    '        <input type="text" class="btn" id="connexion-login" placeholder="Identifiant" />' +
-    '        <input type="password" class="btn" id="connexion-pw" placeholder="Mot de passe" />' +
+    '        <input type="text" class="form-control mb-2" id="connexion-login" placeholder="Identifiant" />' +
+    '        <input type="password" class="form-control" id="connexion-pw" placeholder="Mot de passe" />' +
     '        <p class="alert-danger mt-4 rounded p-2 d-none" id="connexionModalAlert"></p>' +
     '      </div>' +
     '      <div class="modal-footer">' +
@@ -155,7 +171,7 @@ $('footer').after('<!-- Modal -->' +
     '  <div class="modal-dialog" role="document">' +
     '    <div class="modal-content">' +
     '      <div class="modal-header">' +
-    '        <h5 class="modal-title" id="globalModalTitle">Informations</h5>' +
+    '        <h5 class="modal-title ml3" id="globalModalTitle">Informations</h5>' +
     '        <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">' +
     '          <span aria-hidden="true">&times;</span>' +
     '        </button>' +
@@ -174,8 +190,27 @@ $('footer').after('<!-- Modal -->' +
 function decouvrirDestination(id) {
     var destination = destinations[id];
     $('#globalModalTitle').html("Partez pour la destination... " + destination.nom);
-    $('#globalModalBody').html("<b>Description :</b> " + destination.description + "<br><b>Prix :</b> " + destination.prix + " €");
+    $('#globalModalBody').html("<span id='ml3'><b>Description :</b> " + destination.description + "<br><b>Prix :</b> " + destination.prix + " €</span>");
     $('#globalModal').modal('toggle');
+
+    // Wrap every letter in a span
+    var textWrapper = document.querySelector('.ml3');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({loop: true})
+        .add({
+            targets: '.ml3 .letter',
+            opacity: [0,1],
+            easing: "easeInOutQuad",
+            duration: 100,
+            delay: (el, i) => 150 * (i+1)
+        }).add({
+        targets: '.ml3',
+        opacity: 0,
+        duration: 200,
+        easing: "easeOutExpo",
+        delay: 200
+    });
 }
 
 $('#ajouterDestination').on('click', function (event) {
