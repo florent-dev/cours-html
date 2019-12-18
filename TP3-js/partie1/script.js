@@ -5,7 +5,7 @@ function lancerJeu() {
     var indication = '';
 
     while (nbAleatoire !== reponse && nbEssais < 3) {
-        reponse = window.prompt("Un nombre aléatoire entre 1 et 100 a été générez. Devinez-le !" + indication, "Saisissez votre réponse");
+        reponse = window.prompt("Un nombre aléatoire entre 1 et 100 a été généré. Devinez-le ! " + indication, "Saisissez votre réponse");
         reponse = parseInt(reponse);
         indication = (reponse > nbAleatoire) ? "Plus petit !" : "Plus grand !";
         nbEssais++;
@@ -21,9 +21,18 @@ tabPaysVilles = [
     [ 'Italie', ['Rome', 'Florence', 'Venise', 'Naples'] ]
 ];
 
+function formatString(str) {
+    str = str.toLowerCase();
+    if (str.length > 0) {
+        return str[0].toUpperCase() + str.substring(1);
+    } else {
+        return str;
+    }
+}
+
 function chercherPaysParLaVille(city) {
     for(var pays=0; pays < tabPaysVilles.length; pays++) {
-        if (tabPaysVilles[pays][1].includes(city.toString())) {
+        if (tabPaysVilles[pays][1].includes(formatString(city.toString()))) {
             return tabPaysVilles[pays][0];
         }
     }
@@ -35,6 +44,8 @@ function eventRetournerPaysParLaVille () {
 
     if (res !== 'Error') {
         alert('Bienvenue à ' + res + ' !');
+    } else {
+        alert('La ville est introuvable dans notre catalogue, essayez avec Paris ou Madrid par exemple');
     }
 }
 

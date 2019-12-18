@@ -8,7 +8,8 @@
 
 <body>
 
-    <button type="button" onclick="lancerJeu()">Lancer</button>
+    <p>Petit jeu : 3 essais pour trouver un nombre entre 1 et 100.</p>
+    <button type="button" onclick="lancerJeu()">Lancer le jeu</button>
 
     <hr>
 
