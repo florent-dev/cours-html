@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42ce4ce1-f0dd-4d6e-8862-32250d77627f" name="Default Changelist" comment="" />
+    <list default="true" id="42ce4ce1-f0dd-4d6e-8862-32250d77627f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TP Animation JQuery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP Animation JQuery/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Front-End.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Front-End.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TKBaMPTRZcnTIcJ6BQ1d5gnEGP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -93,6 +99,14 @@
       <workItem from="1575617523395" duration="10267000" />
       <workItem from="1575633091953" duration="5000" />
       <workItem from="1576425933611" duration="7423000" />
+      <workItem from="1576483712268" duration="14000" />
+      <workItem from="1576517112914" duration="600000" />
+      <workItem from="1576570382076" duration="6268000" />
+      <workItem from="1576590141140" duration="100000" />
+      <workItem from="1576609016181" duration="7862000" />
+      <workItem from="1576656552128" duration="25000" />
+      <workItem from="1576672872457" duration="592000" />
+      <workItem from="1576674809047" duration="6486000" />
     </task>
     <servers />
   </component>
@@ -116,6 +130,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576609016594">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576609016594" />
     <state x="591" y="222" width="737" height="596" key="find.popup" timestamp="1576431659839">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
