@@ -2,9 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42ce4ce1-f0dd-4d6e-8862-32250d77627f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/0efc8f8f3ccc10739e54e8a230d2e1c3751302a3/functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/0efc8f8f3ccc10739e54e8a230d2e1c3751302a3/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/0efc8f8f3ccc10739e54e8a230d2e1c3751302a3/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/7c91cad558a1eaf97344c079e84974d4259cc6ce/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/9462c5b2f72af880221042f72b2134501223b0e5/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/9a70b0a7399470883511ee01cf214a7bf0857372/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/a6dc8f0f2bb4a8d320272c792bb37807cd4a26ba/notifications.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/.sass-cache/a6dc8f0f2bb4a8d320272c792bb37807cd4a26ba/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/Indications de TP/Projet-AW-2019.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/ajax/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/audio/mp3_141.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/components/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/destinations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/images/brésil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/images/canada.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/images/espagne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/images/italie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet-src.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/leaflet/leaflet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/0efc8f8f3ccc10739e54e8a230d2e1c3751302a3/functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/0efc8f8f3ccc10739e54e8a230d2e1c3751302a3/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/0efc8f8f3ccc10739e54e8a230d2e1c3751302a3/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/439c8157dbde40a6d4c49f2e8a0dc2c1291c74cc/functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/439c8157dbde40a6d4c49f2e8a0dc2c1291c74cc/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/439c8157dbde40a6d4c49f2e8a0dc2c1291c74cc/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/9462c5b2f72af880221042f72b2134501223b0e5/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/a6dc8f0f2bb4a8d320272c792bb37807cd4a26ba/functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/a6dc8f0f2bb4a8d320272c792bb37807cd4a26ba/notifications.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/a6dc8f0f2bb4a8d320272c792bb37807cd4a26ba/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/a6dc8f0f2bb4a8d320272c792bb37807cd4a26ba/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/cde904e5002bab5fb3f6fafb5c6fca454e90a541/functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/cde904e5002bab5fb3f6fafb5c6fca454e90a541/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/cde904e5002bab5fb3f6fafb5c6fca454e90a541/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/d3cb1991261918ffa30bf70119cc57ee1188bbc4/functions.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/d3cb1991261918ffa30bf70119cc57ee1188bbc4/style.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/.sass-cache/d3cb1991261918ffa30bf70119cc57ee1188bbc4/variables.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/functions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/functions.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/variables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/scss/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/video/visit_spain.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/voyage-virtuel-audio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP5 Final/voyage-virtuel-video.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3-js/partie1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/TP3-js/partie1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3-js/partie1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/TP3-js/partie1/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/destinations.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/destinations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/TP5 Final/scss/variables.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/TP5 Final/js/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/voyage-virtuel-audio.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/voyage-virtuel-audio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/voyage-virtuel-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/voyage-virtuel-video.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +137,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP5 Final" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -50,11 +145,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\laragon\www\Cours\html5\TP3-js\TP3_projet\js" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\laragon\www\Cours\html5\TP2-sujet-ressources" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\Cours\HTML5 LP\TP5 Final" />
+      <recent name="D:\laragon\www\Cours\html5\TP3-js\TP3_projet\js" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -104,7 +200,11 @@
       <workItem from="1576609016181" duration="7862000" />
       <workItem from="1576656552128" duration="25000" />
       <workItem from="1576672872457" duration="592000" />
-      <workItem from="1576674809047" duration="10030000" />
+      <workItem from="1576674809047" duration="13288000" />
+      <workItem from="1576746262148" duration="1518000" />
+      <workItem from="1576766637226" duration="5000" />
+      <workItem from="1576838859778" duration="208000" />
+      <workItem from="1577365506336" duration="6632000" />
     </task>
     <servers />
   </component>
@@ -128,13 +228,17 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576609016594">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1576753476308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576609016594" />
-    <state x="591" y="222" width="737" height="596" key="find.popup" timestamp="1576431659839">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576753476308" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576766637099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="222" width="737" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576431659839" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576766637099" />
+    <state x="592" y="222" width="737" height="596" key="find.popup" timestamp="1576696927042">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="592" y="222" width="737" height="596" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576696927042" />
   </component>
 </project>
